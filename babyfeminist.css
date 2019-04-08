@@ -22,6 +22,9 @@ img {
         border-radius: 50%;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+
+
 }
 h1 {
         text-align: center;
@@ -61,4 +64,10 @@ div#whitneystext img {
         margin-right: auto;
 }
 
-p#introtext  {color: white;} 
+p#introtext  {color: white;
+
+}
+
+div#pagecontents {margin: 100px
+  /* text-align: center */
+}
