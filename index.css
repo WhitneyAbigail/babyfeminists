@@ -1,5 +1,35 @@
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #f59fc7;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  background-color: hotpink;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: white;
+  color: hotpink;
+}
+
+
 body {
-  background: rgb(2,0,36);
+
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(246,147,195,1) 0%, rgba(255,255,255,1) 100%);
 }
 
@@ -14,12 +44,12 @@ p    {
 }
 img {
        width: 250px;
-       height: 250px;
-       border-radius: 50%;
+       height: 444px;
+       border-radius: 8%;
        margin-left: auto;
        margin-right: auto;
        display: block;
-       margin-bottom: 500px;
+       margin-bottom: 150px;
 
 }
 }

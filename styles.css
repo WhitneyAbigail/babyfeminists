@@ -1,4 +1,30 @@
 
+.navbar {
+  background-color: #f59fc7;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.navbar a:hover {
+  background-color: hotpink;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: white;
+  color: hotpink;
+}
+
+
 body {
   background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(246,147,195,1) 0%, rgba(255,255,255,1) 100%);
@@ -66,6 +92,7 @@ div#whitneystext img {
 }
 
 p#introtext  {color: white;
+  font-style: italic;
 
 }
 
