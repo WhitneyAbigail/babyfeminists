@@ -1,6 +1,6 @@
 
 .navbar {
-  background-color: #f59fc7;
+  /* background-color: #f59fc7; */
   overflow: hidden;
 }
 
@@ -29,6 +29,19 @@ body {
   background: rgb(2,0,36);
 background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(246,147,195,1) 0%, rgba(255,255,255,1) 100%);
 }
+
+
+img#title { width: 1000px;
+ height: 250px;
+ border-radius: 8%;
+ margin-left: auto;
+ margin-right: auto;
+ display: block;
+ margin-bottom: -7%;
+
+}
+
+
 
 p    {
        color: rgb(119,136,153);
@@ -82,14 +95,6 @@ a {
  font-size: 0px;
 }
 
-div#whitneystext img {
-        filter: none;
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-left: auto;
-        margin-right: auto;
-}
 
 p#introtext  {color: white;
   font-style: italic;
